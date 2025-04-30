@@ -74,3 +74,46 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+
+.parent-document{
+    display: flex;
+    flex-direction: column;
+background: linear-gradient(30deg,#febca6,#f66d9b 20%,#7f37f3 63%,#7f37f3);
+margin-bottom: 10px;
+border-radius: 10px;
+padding: 10px;
+}
+
+.parent-document-header {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.parent-document-p {
+    margin-top: 5px;
+    position: relative;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.download-mojesdnevnik {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #7f37f3;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #cecece; /* Change thickness and color */
+    margin: 20px 0;             /* Optional spacing */
+  }
