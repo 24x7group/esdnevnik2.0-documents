@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.document-list-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.document-list-card:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.document-list-card .icon svg {
+    fill: #1976d2;
+    width: 24px;
+    height: 24px;
+    transition: fill 0.2s ease;
+    flex-shrink: 0;
+}
+
+
+
+.document-list-card .text {
+   /* display: flex;*/
+    flex-direction: column;
+    gap: 0px; /* reduced spacing between title and date */
+}
+
+.document-list-card a {
+    text-decoration: none;
+    color: #1976d2;
+    font-weight: bold;
+    font-size: 15px;
+    transition: color 0.2s ease;
+}
+
+.document-list-card .text span {
+    color: #666;
+    font-size: 13px;
+    transition: color 0.2s ease;
+}
+
+/* Unified hover effect: hover on card affects both icon and text */
+.document-list-card:hover a {
+    color: #de445f;
+}
+
+.document-list-card:hover .icon svg {
+    fill: #de445f;
+}
+
+
+.header{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+    color: #16377a;
+    font-size: 18px;
+    font-weight: 400;
+}
