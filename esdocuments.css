@@ -83,7 +83,14 @@ margin-bottom: 10px;
 border-radius: 10px;
 padding: 10px;
 }
-
+.teacher-document{
+    display: flex;
+    flex-direction: column;
+background: linear-gradient(120deg,#194872 50%,#2daadf);
+margin-bottom: 10px;
+border-radius: 10px;
+padding: 10px;
+}
 .parent-document-header {
     position: relative;
     color: white;
@@ -111,9 +118,22 @@ padding: 10px;
     text-decoration: none;
     border-radius: 10px;
 }
+.download-introduction {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #2daadf;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 10px;
+}
 
 .divider {
     border: none;
-    border-top: 1px solid #dee2e6; /* Change thickness and color */
+    border-top: 1px solid #cecece; /* Change thickness and color */
     margin: 20px 0;             /* Optional spacing */
   }
